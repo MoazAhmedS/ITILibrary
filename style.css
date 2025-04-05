@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(66, 66, 66);
+}
+
+h1 {
+    margin: 40px;
+    text-align: center;
+}
+
+h4 {
+    margin-top: 10px;
+    display: none;
+}
+
+p {
+    display: none;
+    padding-left: 25px;
+    text-align: left;
+    color: rgb(230, 66, 66);
+    margin-top: -10px;
+}
+
+span {
+    color: rgb(106, 206, 97);
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border: 0;
+    background-color: rgb(55, 55, 55);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px;
+
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border: 0px;
+    background-color: rgb(106, 206, 97);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bookN {
+    display: inline-block;
+}
+
+#bookData input {
+    display: block;
+}
+
+#bookData button {
+    width: 320px;
+    margin-top: 15px;
+}
+
+#bookData {
+    display: none;
+}
+
+button:hover {
+    background-color: rgb(144, 238, 136);
+
+}
+
+#cntr div {
+    text-align: center;
+}
+
+#cntr div div {
+    margin: 10px;
+    padding: 10px;
+}
+
+#bookTable {
+    text-align: center;
+    display: none;
+}
+
+table {
+    display: block;
+    width: 1300px;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 20px rgb(34, 33, 33);
+}
+
+th {
+    width: 250px;
+    background-color: rgb(52, 52, 52);
+    border: 1px solid;
+}
+
+td {
+    border-bottom: 1px solid;
+    height: 45px;
+    background-color: rgb(80, 80,80);
+
+}
+
+td:last-child {
+    border-right: 1px solid;
+}
+
+td:first-child {
+    border-left: 1px solid;
+}
+
+th:last-child {
+    width: 300px;
+}
+
+td button {
+    height: 30px;
+    font-size: 18px;
+    padding: 0;
+}
+
+tr {
+    height: 40px;
+}
+
+td:last-child button {
+    background-color: rgb(202, 59, 59);
+}
+
